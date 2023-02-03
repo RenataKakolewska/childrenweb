@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economics website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+        body{
+            background: url("img/girl.jpg");
+            background-repeat: no-repeat no-repeat; 
+            background-size: cover;
+            margin: 0px;
+            padding: 0px;
+        }
+        .left{
+            display:flex;
+            position:absolute;
+            left:34px;
+            top:20px;}
+        
+        img{
+            border-radius: 30px;
+            width: 100px;
+            height: 100px;
+        }
+        h1{
+            font-family: "Sofia", sans-serif;
+            color: aliceblue;
+        }
+        .right {display: flex;
+    margin: 29px auto;
+    position: absolute;
+    top: 37px;
+    left: 600px;
+    
+    margin-top: 1px;}
+    
+    
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{ display: inline-block;
+    font-size: 25px;}
+
+    .navbar li a{
+        color: whitesmoke;
+        text-decoration: none;
+        padding: 35px 26px;
+    }
+    .middle{ position: absolute;
+    right: 35px;
+top: 28px;
+display:  inline-block;
+}
+.btn{ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin: 0px;
+background-color: aliceblue;
+color: blue;
+border-radius: 8px;
+padding: 4px 14px;
+border: 2px solid grey;
+font-size: 20px;
+cursor: pointer;}
+.container{border: 2px solid violet;
+margin: 308px 80px;
+margin-left: 1100px;
+padding: 75ox;
+width: 35%;
+border-radius: 28px;}
+.formgr input {
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid brown;
+    margin: 3px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+    </style>
+</head>
+<body>
+   
+    <header class="header">
+        <div class="left">
+            <img src="img/logo_child.png" alt="">
+            <h1>Heart for Children</h1>
+        </div>
+        <div class="right">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Connect</a></li>
+            </ul>
+            
+        </div>
+        <div class="middle">
+           <button class="btn">Read About</button>
+           <button class="btn">Contact</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join our children community</h1>
+        <form action="backend.php"> 
+
+        <div class="formgr">  <input type="text" placeholder="enter your name"></div> 
+        <div class="formgr">  <input type="text" placeholder="enter your email"></div> 
+        <div class="formgr">  <input type="text" placeholder="enter your name"></div> 
+        <div class="formgr">  <input type="text" placeholder="enter your name"></div> 
+       
+        
+    </form>
+    </div>
+</body>
+</html>
